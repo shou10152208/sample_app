@@ -13,11 +13,14 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   #Use pry
   gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'rails-footnotes'
 end
 # Use capybara selenium-webdriver at test
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'launchy'
   gem 'factory_girl_rails', '4.2.1'
 end
 # Use SCSS for stylesheets
